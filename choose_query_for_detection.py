@@ -70,10 +70,6 @@ if __name__ == '__main__':
         with open(anchor_data_path, "r") as f:
             anchor_data[anchor_model] = json.load(f)
 
-    anchor_data_path_chatgpt = "./data/stanford_alpaca/alpaca.json"
-    with open(anchor_data_path, "r") as f:
-        anchor_data["chatgpt"] = json.load(f)
-
     if args.model_name == "llama2":
         tokenizer_path = "meta-llama/Llama-2-7b-chat-hf"
     elif args.model_name == "llama3":
