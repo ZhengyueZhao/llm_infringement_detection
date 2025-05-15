@@ -1,7 +1,14 @@
 #  Can Watermarks Be Used to Detect LLM IP Infringement for Free?
+![Overview.](figure/overview.png)
 
+## Quick Start
+```
+git clone https://github.com/ZhengyueZhao/llm_infringement_detection.git
+cd llm_infringement_detection
+pip install -r requirements.txt
+```
 ### Preparation
-First prepare the suspect model set for infringement detection.
+First, prepare the suspect model set for infringement detection.
 
 Step 1. Sample distillation data from the source models.
 ```
